@@ -1,0 +1,39 @@
+Arguments: 
+  /Users/acsreedharreddy/.asdf/installs/nodejs/14.18.0/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /Users/acsreedharreddy/.asdf/plugins/nodejs/shims:/Users/acsreedharreddy/.asdf/installs/nodejs/14.18.0/.npm/bin:/Users/acsreedharreddy/.asdf/installs/nodejs/14.18.0/bin:/Users/acsreedharreddy/.opam/4.12.0/bin:/Users/acsreedharreddy/.asdf/shims:/Users/acsreedharreddy/.asdf/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/Library/Apple/usr/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/acsreedharreddy/.opam/4.12.0/bin:/Users/acsreedharreddy/Library/Android/sdk/emulator:/Users/acsreedharreddy/Library/Android/sdk/tools:/Users/acsreedharreddy/Library/Android/sdk/tools/bin:/Users/acsreedharreddy/Library/Android/sdk/platform-tools:/Users/acsreedharreddy/Library/Android/sdk/emulator:/Users/acsreedharreddy/Library/Android/sdk/tools:/Users/acsreedharreddy/Library/Android/sdk/tools/bin:/Users/acsreedharreddy/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.18.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+npm manifest: 
+  {
+    "name": "my-vue-app",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "tsc && vite build",
+      "preview": "vite preview"
+    },
+    "devDependencies": {
+      "typescript": "^4.4.4",
+      "vite": "^2.7.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
